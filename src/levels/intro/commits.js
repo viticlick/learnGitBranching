@@ -271,7 +271,7 @@ exports.level = {
             "beforeMarkdowns": [
               "Vexamos o que iso significa na práctica. Á dereita, temos unha visualización de un (pequeno) repositorio de git. Hai dous commits por agora: o commit inicial, `C0`, e un commit que lle segue, `C1`, que podería ter algúns cambios interesantes.",
               "",
-              "Pincha no botón de enbaixo para facer un novo commit"
+              "Pincha no botón de abaixo para facer un novo commit"
             ],
             "afterMarkdowns": [
               "¡Alá imos! Mi ma!. Fixemos cambios no repositorio e gardámolas nun commit. O commit que creaches ten un pai, `C1`, que é unha referencia do commit no que se basea."
