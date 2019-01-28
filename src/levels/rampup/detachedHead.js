@@ -294,7 +294,7 @@ exports.level = {
               "",
               "O HEAD sempre apunta para o commit máis recentemente copiado sobre a árbore de traballo (arquivos do proxecto). A maioría dos comandos de git que fan algún cambio sobre a árbore de traballo empezarán movendo o HEAD.",
               "",
-              "Normalmente o HEAD apunta para o nome dunha rama (por exemplo, bugFix). Quando fagas commit, o status do bugFix é alterado e ese cambio ocorre tamém sobre o HEAD."
+              "Normalmente o HEAD apunta para o nome dunha rama (por exemplo, bugFix). Quando fagas commit, o status do bugFix é alterado e ese cambio ocorre tamén sobre o HEAD."
             ]
           }
         },
@@ -305,7 +305,7 @@ exports.level = {
               "Vexamos isto en acción. Aquí imos mostrar o HEAD antes e depois dun commit."
             ],
             "afterMarkdowns": [
-              "Ves! O HEAD está ó lado do noso `master` todo este tempo."
+              "Ves! O HEAD estivo ó lado do noso `master` todo este tempo."
             ],
             "command": "git checkout C1; git checkout master; git commit; git checkout C2",
             "beforeCommand": ""
@@ -315,9 +315,9 @@ exports.level = {
           "type": "GitDemonstrationView",
           "options": {
             "beforeMarkdowns": [
-              "### Soltando a cabeça",
+              "### Soltando a cabeza",
               "",
-              "Soltar o HEAD significa apuntar a un commit en vez de apuntar a unha rama. Antes do estado solo (\"detached\"), é así como parece:",
+              "Soltar o HEAD significa apuntar a un commit en vez de apuntar a unha rama. Antes do estado solo (\"detached\"), é así como aparece:",
               "",
               "HEAD -> master -> C1",
               ""
@@ -337,7 +337,7 @@ exports.level = {
             "markdowns": [
               "Para completar este nivel, imos soltar o HEAD de `bugFix` e en vez diso apuntamos ó commit.",
               "",
-              "Especifique o commit por medio do hash correspondente. O hash de cada commit está dentro do círculo que representa ó commit (a letra C seguida dun número)."
+              "Especifica o commit por medio do hash correspondente. O hash de cada commit está dentro do círculo que representa ó commit (a letra C seguida dun número)."
             ]
           }
         }
