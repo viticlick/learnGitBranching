@@ -216,12 +216,12 @@ exports.level = {
           "type": "ModalAlert",
           "options": {
             "markdowns": [
-              "Precisamos decirlle a git que copie só os commits que nos interesa. Esta situación é exatamente a mesma dos niveis anteriores a respecto de como mover traballo -- podemos usar os mesmos comandos:",
+              "Precisamos decirlle a git que copie só os commits que nos interesa. Esta situación é exatamente a mesma dos niveis anteriores respecto de como mover o traballo -- podemos usar os mesmos comandos:",
               "",
               "* `git rebase -i`",
               "* `git cherry-pick`",
               "",
-              "Para alcanzar o objetivo."
+              "Para acadar o objetivo."
             ]
           }
         },
@@ -229,7 +229,7 @@ exports.level = {
           "type": "ModalAlert",
           "options": {
             "markdowns": [
-              "Este é un nivel avanzado, entón imos deixarte a decisión de qué comando usar, pero para completar este nivel, asegurate de que a rama `master` colla o commit referenciado por `bugFix`."
+              "Este é un nivel avanzado, entón imos deixarche a decisión de qué comando empregar, pero para completar este nivel, asegurate de que a rama `master` colla o commit referenciado por `bugFix`."
             ]
           }
         }

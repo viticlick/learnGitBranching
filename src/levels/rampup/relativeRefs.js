@@ -428,7 +428,7 @@ exports.level = {
             "markdowns": [
               "Como xa dixemos, indicar os commits polo seu código hash non é a forma máis convinte, e é por eso que git ten referencias relativas. ¡Son a caña!",
               "",
-              "Cas referencias relativas, podes comezar por un pnto sinxelo de lembrar (como a rama `bugFix` ou o `HEAD`) e referenciar a partir de ahí.",
+              "Cas referencias relativas, podes comezar por un punto sinxelo de lembrar (como a rama `bugFix` ou o `HEAD`) e referenciar a partir de ahí.",
               "",
               "Os commits relativos son poderosos, pero agora imos presentar só dous formas sinxelas:",
               "",
@@ -473,7 +473,7 @@ exports.level = {
           "type": "ModalAlert",
           "options": {
             "markdowns": [
-              "Para completar ess nivel, fai checkout do commit pai de `bugFix`. Iso soltará o `HEAD`.",
+              "Para completar este nivel, fai checkout do commit pai de `bugFix`. Iso soltará o `HEAD`.",
               "",
               "¡Podes indicar o hash que queiras, pero intenta empregar as referencias relativas, é moito mellor!"
             ]

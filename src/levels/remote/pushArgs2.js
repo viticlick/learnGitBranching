@@ -323,7 +323,7 @@ exports.level = {
               "",
               "Poderías estar a preguntarte ¿E se quixéramos que a orixe  e o destino sexan distintos? ¿Se quixéramos empurrar os commits da  rama local `foo` á rama `bar` do remoto?",
               "",
-              "Bueno, esto non se pode facer en git... ¡Caramboliñas! Claro que se pode :D. git é extremadísimamente flexibe (case case qeu de máis).",
+              "Bueno, esto non se pode facer en git... ¡Caramboliñas! Claro que se pode :D. git é extremadísimamente flexibe (case case que de máis).",
               "",
               "Vexamos cómo facelo a continuación..."
             ]
@@ -333,7 +333,7 @@ exports.level = {
           "type": "ModalAlert",
           "options": {
             "markdowns": [
-              "Para especificar tanto a orixe como o destino de `<lugar>`, sinxelamente úneos empregando un dos puntos:",
+              "Para especificar tanto a orixe como o destino de `<lugar>`, sinxelamente úneos empregando dous puntos:",
               "",
               "`git push origin <orixe>:<destino>`",
               "",

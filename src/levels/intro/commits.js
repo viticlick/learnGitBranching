@@ -257,11 +257,11 @@ exports.level = {
               "## Commits en Git",
               "Un commit nun repositorio de git rexistra unha fotografía (snapshot) de tódolos arquivos no seu directorio. É coma un copy&paste xigante, ¡pero todavía mellor!",
               "",
-              "Git quere gardar os commits o máis pequenos posible, por iso non copia directamente o directorio completo sempre que fas un commit. El pode (cando é posible) comprimir nun commit un conxunto de cambios (ou un _\"delta\"_) entre unha versión do teu respositorio e o seguinte.",
+              "Git quere gardar os commits o máis pequenos posíbel, por iso non copia directamente o directorio completo sempre que fas un commit. El pode (cando é posíbel) comprimir nun commit un conxunto de cambios (ou un _\"delta\"_) entre unha versión do teu respositorio e o seguinte.",
               "",
-              "Git tamén garda un histórico de cando se fixo cada cambio. Por iso a maioría dos commits teñen ancestros enriba deles, e nos indicámolos con flechas na nosa visualización. ¡Manter a historia é óptimo para todos os que traballan no proxecto!",
+              "Git tamén garda un histórico de cando se fixo cada cambio. Por iso a maioría dos commits teñen ancestros enriba deles, e nos indicámolos con frechas na nosa visualización. ¡Manter a historia é óptimo para tódolos que traballan no proxecto!",
               "",
-              "Hai moito que aprender, pero por agora podes pensar que os commits son fotos do teu proxecto. Os commits son livianos, e cambiar de un para o outro é extremadamente rápido!"
+              "Hai moito que aprender, pero por agora podes pensar que os commits son fotos do teu proxecto. Os commits son liviáns, e cambiar dun para o outro é extremadamente rápido!"
             ]
           }
         },
@@ -269,12 +269,12 @@ exports.level = {
           "type": "GitDemonstrationView",
           "options": {
             "beforeMarkdowns": [
-              "Vexamos o que iso significa na práctica. Á dereita, temos unha visualización de un (pequeno) repositorio de git. Hai dous commits por agora: o commit inicial, `C0`, e un commit que lle segue, `C1`, que podería ter algúns cambios interesantes.",
+              "Vexamos o que iso significa na práctica. Á dereita, temos unha visualización dun (pequeno) repositorio de git. Hai dous commits por agora: o commit inicial, `C0`, e un commit que lle segue, `C1`, que podería ter algúns cambios interesantes.",
               "",
               "Pincha no botón de abaixo para facer un novo commit"
             ],
             "afterMarkdowns": [
-              "¡Alá imos! Mi ma!. Fixemos cambios no repositorio e gardámolas nun commit. O commit que creaches ten un pai, `C1`, que é unha referencia do commit no que se basea."
+              "¡Alá imos! Mi ma!. Fixemos cambios no repositorio e gardámolos nun commit. O commit que creaches ten un pai, `C1`, que é unha referencia do commit no que se basea."
             ],
             "command": "git commit",
             "beforeCommand": ""

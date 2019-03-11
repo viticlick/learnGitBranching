@@ -464,7 +464,7 @@ exports.level = {
               "Imos intentar colocar algún traballo nesta nova rama. Pincha no botón de abaixo"
             ],
             "afterMarkdowns": [
-              "¡Bueno home! A rama `master` moveuse pero a rama `newImage` non! Eso é porque a nova rama non era a \"actual\", e é por iso que o asterisco (*) estaba na rama `master`"
+              "¡Bueno home! A rama `master` moveuse pero a rama `newImage` non! Eso é porque a nova rama non era a \"actual\", e é por iso que o asterisco (*) ficaba na rama `master`"
             ],
             "command": "git commit",
             "beforeCommand": "git branch newImage"
@@ -498,7 +498,7 @@ exports.level = {
               "",
               "Inda así, hai un atallo: se ti quixeras crear unha nova ",
               "rama e moverte a ela ó mesmo tempo, ti podes escribir simplemente ",
-              "`git checkout -b [atuarama]`."
+              "`git checkout -b [a-tua- rama]`."
             ]
           }
         }

@@ -610,11 +610,11 @@ exports.level = {
           "type": "ModalAlert",
           "options": {
             "markdowns": [
-              "## Trabajo divergente",
+              "## Traballo diverxente",
               "",
               "Ata agora vimos cómo descargar e mesturar os commits de outros e como empurrar os nosos. Parece bastante sinxelo, así que ¿cómo pode confundirse tanto a xente?",
               "",
-              "A dificultade ven cando a historia dos repositorios *diverxe*. Ántes de entrar nos detalles, vexamos un examplo...",
+              "A dificultade ven cando a historia dos repositorios *diverxe*. Antes de entrar nos detalles, vexamos un examplo...",
               ""
             ]
           }
@@ -683,7 +683,7 @@ exports.level = {
           "type": "GitDemonstrationView",
           "options": {
             "beforeMarkdowns": [
-              "Si en lugar de rebasar facemos un merge..."
+              "Si no lugar de rebasar facemos un merge..."
             ],
             "afterMarkdowns": [
               "¡Boom! Actualizamos a nosa representación local do remoto usando `git fetch`, *mesturamos* ou *mergeamos* o novo traballo xunto co noso (para reflexar os novos cambios no remoto), e despois os empurramos empregando `git push`"
@@ -696,10 +696,9 @@ exports.level = {
           "type": "ModalAlert",
           "options": {
             "markdowns": [
-              "¡Asombroso! ¿Hay forma de hacer esto sin tipear tantos comandos?",
-              "¡Asombroso! ¿Hay forma de hacer esto sin tipear tantos comandos?",
+              "¡Asombroso! ¿Hai forma de facer esto sen escreber tantos comandos?",
               "",
-              "¡Claro que sí! Xa sabes que `git pull` é sinxelamente un atallo para facer fetch e merge. Ademáis, ¡ `git pull --rebase` é un atallo para facer fetch e rebase!",
+              "¡Claro que sí! Xa sabes que `git pull` é sinxelamente un atallo para facer fetch e merge. Ademáis, ¡`git pull --rebase` é un atallo para facer fetch e rebase!",
               "",
               "Vexamos estos atallos funcionando."
             ]

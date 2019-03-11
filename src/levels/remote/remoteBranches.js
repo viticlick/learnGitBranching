@@ -287,9 +287,10 @@ exports.level = {
               "",
               "O primeiro que notarías é que apareceu unha nova rama no teu repositorio local chamada `o/master`. A este tipo de ramas chámaselle ramas _remotas_. As ramas remotas teñén propiedades especiais porque serven para un propósito específico.",
               "",
-              "As ramas remotas reflexan o _estado_ dos repositorios remotos (como estaban á última vez qeu falaches con eles). Axúdante a entender as diferencias entre o teu traballo local e o teu traballo que xa está publicado - un paso crítico antes de compartir o teu traballo cos demáis.",
+              "As ramas remotas reflexan o _estado_ dos repositorios remotos (como estaban á última vez que falaches con eles). Axúdante a entender as diferencias entre o teu traballo local e o teu traballo que xa está publicado - un paso crítico antes de compartir o teu traballo cos demáis.",
+              uU
               "",
-              "As ramas remotas teñen a propiedade especial de que cando fas checkout, pasas o modo detached `HEAD`. Git faino a drede porque non podes traballar nesas ramas directamente: tes qeu traballar nalgún outro lado e despois compartir o teu traballo co remoto (tras o que as túas ramas remotas actualizaranse)."
+              "As ramas remotas teñen a propiedade especial de que cando fas checkout, pasas o modo detached `HEAD`. Git faino a drede porque non podes traballar nesas ramas directamente: tes que traballar nalgún outro lado e despois compartir o teu traballo co remoto (tras o que as túas ramas remotas actualizaranse)."
             ]
           }
         },
@@ -299,7 +300,7 @@ exports.level = {
             "markdowns": [
               "### ¿Qué é `o/`?",
               "",
-              "Poderías etasr preguntándote qué significa ese `o/` ó principio das ramas remotas. Bueno, as ramas remotas tamén teñen unha convención de nomes obligatoria -- se as amosas co formato:",
+              "Poderías estar a preguntarte qué significa ese `o/` ó principio das ramas remotas. Bueno, as ramas remotas tamén teñen unha convención de nomes obligatoria -- se as amosas co formato:",
               "",
               "* `<nome do remoto>/<nome da rama>`",
               "",
@@ -307,9 +308,9 @@ exports.level = {
               "",
               "A maioría dos desenvolvedores chaman `origin` ó seu remoto no lugar de `o`. Esto é tan común que git efectivamente crea o teu remoto chamandoo `origin` cando fas `git clone` dun repositorio.",
               "",
-              "Desafortunadamente o nome `origin` completo non entra na nosa  UI, así que empregamos `o` para acortar: (Sinxelamente recorda que cando uses git na vida real, o teu remote ¡probablemente se chame `origin`!)",
+              "Desafortunadamente o nome `origin` completo non entra na nosa  UI, así que empregaremos `o` para acortar: (Sinxelamente recorda que cando uses git na vida real, o teu remote ¡probablemente se chame `origin`!)",
               "",
-              "Hai moito para procesar, así qeu vexámolo en acción."
+              "Hai moito para procesar, así que vexámolo en acción."
             ]
           }
         },
@@ -320,7 +321,7 @@ exports.level = {
               "Fagamos checkout a unha rama remota a ver qué pasa"
             ],
             "afterMarkdowns": [
-              "Como ves, git púxonos no modo detached `HEAD` e non actualizou `o/mater` cando creamos un novo commit. Esto é porque `o/mater` só vai actualizarse cando o remoto actualizase."
+              "Como ves, git púxonos no modo detached `HEAD` e non actualizou `o/mater` cando creamos un novo commit. Esto é porque `o/mater` só vai actualizarse cando o remoto se actualice."
             ],
             "command": "git checkout o/master; git commit",
             "beforeCommand": "git clone"
@@ -330,7 +331,7 @@ exports.level = {
           "type": "ModalAlert",
           "options": {
             "markdowns": [
-              "Para completar este nivel, fai commit unha vez sobre `mater` e unha vez despois de facer checkout a `o/master`. Esto vaite axudar a caer cómo as ramas remotas funcionan distinto, e que só se actualizan para reflexar o estado do remoto."
+              "Para completar este nivel, fai commit unha vez sobre `mater` e despois de facer o checkout a `o/master`. Esto vaite axudar a entender cómo funcionan as ramas remotas, e que só se actualizan para reflexar o estado do remoto."
             ]
           }
         }

@@ -229,7 +229,7 @@ exports.level = {
             "markdowns": [
               "## Revertindo cambios en Git",
               "",
-              "Existen varias formas de revertir os cambios en git. E, como cando se fai commit, desfacer cambios en ten tanto unha operación de baixo nivel (a indexación de arquivos ou trozos de eles) coma unha operación de alto nivel (desfacer os cambios xa aplicados). Aquí ímonos enfocar neste último punto.",
+              "Existen varias formas de revertir os cambios en git. E, como cando se fai commit, desfacer cambios supon unha operación de baixo nivel (a indexación de arquivos ou trozos de eles) e unha operación de alto nivel (desfacer os cambios xa aplicados). Aquí ímonos enfocar neste último punto.",
               "",
               "Hai dúas formas de desfacer os cambios en git -- unha delas é `git reset`, e a outra é usando `git revert`. Imos comparalas na próxima ventá.",
               ""
@@ -264,7 +264,7 @@ exports.level = {
               "Para revervir os cambios e *compartir* eses cambios ca outra xente, precisamos usar `git revert`. Atende a cómo funciona"
             ],
             "afterMarkdowns": [
-              "Estrano, xurdíu un novo commit por baixo do commit que queriamos desfacer. Iso é porque o novo commit `C2'` engadiu *cambios* -- o que pasa é que o commit desfai exactamente os cambios feitos no commit `C2`.",
+              "Estrano, xurdíu un novo commit por baixo do commit que queriamos desfacer. Iso é porque o novo commit `C2'` engadíu *cambios* -- o que pasa é que o commit desfai exactamente os cambios feitos no commit `C2`.",
               "",
               "Con `revert`, ti podes facer `push` dos teus cambios para compartilos cos outros."
             ],
@@ -276,7 +276,7 @@ exports.level = {
           "type": "ModalAlert",
           "options": {
             "markdowns": [
-              "Para completar este nivel, reverta os dous commits máis recentes tanto en `local` como en `pushed`.",
+              "Para completar este nivel, reverte os dous commits máis recentes tanto en `local` como en `pushed`.",
               "",
               "Ten en mente que `pushed` é unha rama remota, e `local` é unha rama local -- Iso poida que te axude a aplicar o método apropriado."
             ]

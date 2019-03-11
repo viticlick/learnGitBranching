@@ -461,7 +461,7 @@
               "",
               "* Podes reordenar os commits simplemente cambiando a súa orde na interface (na nosa ventá significa arrastrar e soltar os commits).",
               "* Podes escoller a opción de omitir algúns commits. Para iso, pincha no botón `pick` -- deixar o `pick` desligado significa que queres descartar o commit.",
-              "* Ademáis, ti podes \"esmagar\" (fazer squash) nos commits. Tristemente, este tutorial non será capaz de cubrir esa funcionalidade por algúns motivos loxísticos, entón imos pulir algúns detalles o respecto. En resume, o squash permite combinar commits.",
+              "* Ademáis, ti podes \"esmagar\" (fazer squash) nos commits. Tristemente, este tutorial non será capaz de cubrir esa funcionalidade por algúns motivos loxísticos, entón imos pulir algúns detalles ó respecto. Resumindo, o squash permite combinar commits.",
               "",
               "¡Xenial! Vexamos un exemplo."
             ]
@@ -471,7 +471,7 @@
           "type": "GitDemonstrationView",
           "options": {
             "beforeMarkdowns": [
-              "Cando pinches o botón, unha ventá de rebase interativo abrirase. Reordene algúns commits da forma que ti prefieras (ou se o prefires desmarca o `pick` de algúns) e vexa o seu resultado!"
+              "Cando pinches o botón, unha ventá de rebase interativo abrirase. Reordena algúns commits da forma que ti prefieras (ou se o prefires desmarca o `pick` de algúns) e mira o seu resultado!"
             ],
             "afterMarkdowns": [
               "¡Veña! Git copiou algúns commits exatamente da mesma forma que o indicaches na ventá"

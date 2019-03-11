@@ -386,9 +386,9 @@ exports.level = {
             "markdowns": [
               "## Ramas e merges",
               "",
-              "¡Xenial! Agora sabemos como facer commits e crear ramas. Agora precisamos aprender unha forma de combinar o traballo de dúas ramas diferentes. Iso permitiranos ramificar, facer un novo cambio, e entón combinalo de volta.",
+              "¡Xenial! Agora sabemos como facer commits e crear ramas. Agora precisamos aprender unha forma de combinar o traballo de dúas ramas diferentes. Iso permitiríanos ramificar, facer un novo cambio, e entón mesturalo de volta.",
               "",
-              "O primeiro comando para combinar o traballo que imos ver é `git merge`. O merge de Git crea un commit especial que ten dous pais únicos. Un commit con dous pais significa \"Quero incluir todo o traballo deste pai cos cambios do outro pai, *e* o conxunto de tódolos ancestros.\"",
+              "O primeiro comando para mesturar o traballo que imos ver é `git merge`. O merge de Git crea un commit especial que ten dous pais únicos. Un commit con dous pais significa \"Quero incluír todo o traballo deste pai cos cambios do outro pai, *e* o conxunto de tódolos ancestros.\"",
               "",
               "É máis doado con unha visualización, ímolo ver na seguinte vista."
             ]
@@ -441,7 +441,7 @@ exports.level = {
               "* Fai un novo commit",
               "* Xunta a rama `bugFix` en `master` con `git merge`",
               "",
-              "*¡Recórda, podes amosar esta mensaxe novamente co comando \"objective\"!*"
+              "¡Recorda, podes amosar esta mensaxe novamente co comando \"objective\"!"
             ]
           }
         }

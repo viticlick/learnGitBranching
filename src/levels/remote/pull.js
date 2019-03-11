@@ -277,7 +277,7 @@ exports.level = {
               "",
               "Agora que vimos cómo traer os datos dun repositorio remoto con `git fetch`, ¡actualicemos o noso traballo local para reflexar eses cambios!",
               "",
-              "realmente hai varias formas de facer esto: unha vez que teñas os commits dispoñibles localmente, podes integralos coma se foran commits comúns de outras ramas. Esto significa que poderías executar comandos como:",
+              "Realmente hai varias formas de facer esto: unha vez que teñas os commits dispoñibles localmente, podes integralos coma se foran commits comúns de outras ramas. Esto significa que poderías executar comandos como:",
               "",
               "* `git cherry-pick o/master`",
               "* `git rebase o/master`",
@@ -308,7 +308,7 @@ exports.level = {
               "¿Qué pasaría se usáramos `git pull` en cambio?"
             ],
             "afterMarkdowns": [
-              "¡O mesmo! Eso debía deixar ben claro que `git pull` é básicamente un atallo para facer `git fetch` seguido pola mestura ca rama que houbesemos descargado."
+              "¡O mesmo! Eso debía deixar ben claro que `git pull` é básicamente un atallo para facer `git fetch` seguido pola mestura ca rama que houbésemos descargado."
             ],
             "command": "git pull",
             "beforeCommand": "git clone; git commit; git fakeTeamwork"

@@ -347,11 +347,11 @@ exports.level = {
           "type": "ModalAlert",
           "options": {
             "markdowns": [
-              "¿Qué será este parámetro `<lugar>`, fixecheste esa pregunta? Xa imos entrar en detalle, pero primeiro un exemplo. Executa o comando:",
+              "¿Qué será este parámetro `<lugar>`, fixécheste esa pregunta? Xa imos entrar en detalle, pero primeiro un exemplo. Executa o comando:",
               "",
               "`git push origin master`",
               "",
-              "traducese así ó galego:",
+              "tradúcese así ó galego:",
               "",
               "*Vai á rama chamada \"master\" no meu repositorio, colle tódolos commits, e despois vai á rama \"master\" do remoto chamado \"origin\". Aplica ahí tódolos commits que falten, e avísame cando remates.*",
               "",

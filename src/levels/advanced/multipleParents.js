@@ -577,12 +577,12 @@ exports.level = {
           "type": "GitDemonstrationView",
           "options": {
             "beforeMarkdowns": [
-              "Aquí temos un commit do merge. Se fixeramos checkout en `master^` sen especificar un número, imos seguir ó primeiro pai enriba do commit do merge. ",
+              "Aquí temos un commit do merge. Se fixéramos checkout en `master^` sen especificar un número, imos seguir ó primeiro pai enriba do commit do merge. ",
               "",
               "(*Na nosa vista, o primeiro pai é aquel directamente enriba do commit do merge.*)"
             ],
             "afterMarkdowns": [
-              "Sinxelo, eso é aquelo co que xá estamos acostumados."
+              "Sinxelo, eso é aquelo co que xa estamos acostumados."
             ],
             "command": "git checkout master^",
             "beforeCommand": "git checkout HEAD^; git commit; git checkout master; git merge C2"
@@ -631,7 +631,7 @@ exports.level = {
           "type": "ModalAlert",
           "options": {
             "markdowns": [
-              "### Pono en práctica",
+              "### Pono na práctica",
               "",
               "Para completar este nível, crea unha nova rama no destino especificado.",
               "",

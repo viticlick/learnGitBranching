@@ -335,9 +335,9 @@ exports.level = {
             "markdowns": [
               "## Parámetros de git pull",
               "",
-              "Agora que sabes prácticamente *todo* o que hai que sa ber sobre os parámetros de `git fetch` e `git push`, casi que non queda nada para cubrir de git pull :D",
+              "Agora que sabes prácticamente *todo* o que hai que saber sobre os parámetros de `git fetch` e `git push`, casi que non queda nada para cubrir os de git pull :D",
               "",
-              "Eso é porqeu git pull é sinxelamente un atallo para facer un fetch seguido dun merge. Podes pensalo comom executar git fetch cos *mesmos* parámetros, e logo mesturar aquelo onde esos commits houberan ido ficar.",
+              "Eso é porque git pull é sinxelamente un atallo para facer un fetch seguido dun merge. Podes pensalo como executar git fetch cos *mesmos* parámetros, e logo mesturar aquelo onde esos commits houberan ido ficar.",
               "",
               "Esto aplica incluso cando usas parámetros hiper-complexos. Vexamos algúns exemplos:"
             ]
@@ -347,13 +347,13 @@ exports.level = {
           "type": "ModalAlert",
           "options": {
             "markdowns": [
-              "Estos son alguns comandos equivalentes de git:",
+              "Estos son algúns comandos equivalentes de git:",
               "",
               "`git pull  origin foo` equivale a:",
               "",
               "`git fetch origin foo; git merge o/foo`",
               "",
-              "Y...",
+              "E...",
               "",
               "`git pull  origin bar~1:bugFix` equivale a:",
               "",

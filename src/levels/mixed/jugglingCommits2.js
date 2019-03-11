@@ -225,9 +225,9 @@ exports.level = {
             "markdowns": [
               "## Argallando cos commits #2",
               "",
-              "*No caso de non haber rematado o tema anterior (Argallando cos commits #1), por favor faino antes de continuar*",
+              "*No caso de non ter rematado o tema anterior (Argallando cos commits #1), por favor faino antes de continuar*.",
               "",
-              "Como puideches ver no anterior tema, usamos `rebase -i` para reordenar os commits. Unha vez que atopamos o commit que queriamos modificar, puidemos empregar sinxelamente o `--amend`, e depois reordenalo de volta para obter a nosa orde preferida.",
+              "Como puideches ver no anterior tema, usamos `rebase -i` para reordear os commits. Unha vez que atopamos o commit que queriamos modificar, puidemos empregar sinxelamente o `--amend`, e depois reordenalo de volta para obter a nosa orde preferida.",
               "",
               "O único problema aquí é que hai moita reordenación ocorrendo, o que pode introducir conflitos no rebase. Imos votar unha ollada a outro método, o uso de `git cherry-pick`"
             ]
@@ -237,7 +237,7 @@ exports.level = {
           "type": "GitDemonstrationView",
           "options": {
             "beforeMarkdowns": [
-              "Lembra que `git cherry-pick` copiará um commit de qualquera lugar na árbore enriba do HEAD (sempre e cando non sexa ancestro do HEAD).",
+              "Lembra que `git cherry-pick` copiará un commit de qualquera lugar na árbore enriba do HEAD (sempre e cando non sexa ancestro do HEAD).",
               "",
               "Aquí está unha demostración para que refresques a memoria:"
             ],

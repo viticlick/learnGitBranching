@@ -378,7 +378,7 @@ exports.level = {
               "",
               "A segunda forma de mesturar traballo entre ramas é o *rebase*. O rebase esencialmente pega un conxunto de commits, \"copia\" os commits, e os sitúa en outro lugar.",
               "",
-              "Esto pode paracer confuso, pero a vantaxe do rebase é que se pode usar para construír unha secuencia  máis bonita e linial de commits. O rexisto de commits do repositorio estará máis limpo se solo se permite facer rebases.",
+              "Esto pode paracer confuso, pero a vantaxe do rebase é que se pode usar para construír unha secuencia  máis bonita e linial de commits. O rexisto de commits do repositorio estará máis limpo se só se permite facer rebases.",
               "",
               "Ímolo ver en acción..."
             ]
@@ -395,7 +395,7 @@ exports.level = {
               "Imos lanzar o comando `git rebase`"
             ],
             "afterMarkdowns": [
-              "¡Buah chrovo! Agora o traballo da nosa rama `bugFix` está seguida de master, e temos unha fermosa línea de commits.",
+              "¡Buah chorvo! Agora o traballo da nosa rama `bugFix` está seguida de master, e temos unha fermosa línea de commits.",
               "",
               "Percibe que o commit `C3` aínda existe nalgún lugar (el está borrado na árbore), e que `C3'` é a \"copia\" que rebasamos en master.",
               "",

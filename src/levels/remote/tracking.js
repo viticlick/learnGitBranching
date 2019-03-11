@@ -513,7 +513,7 @@ exports.level = {
             "markdowns": [
               "### Ramas que trackean os remotos",
               "",
-              "Unha das cousas qeu poden semellar \"máxicas\" das últimas leccións é que git sabía que a rama `master`estaba relacionada co `o/master`. Obviamente, estas ramas teñen nomes semellantes, e podería semellar lóxico conectar a rama `master` do remoto ca rama `master` local, pero esta conexión é ben evidente nos dous escenarios:",
+              "Unha das cousas que poden semellar \"máxicas\" das últimas leccións é que git sabía que a rama `master` estaba relacionada co `o/master`. Obviamente, estas ramas teñen nomes semellantes, e podería semellar lóxico conectar a rama `master` do remoto ca rama `master` local, pero esta conexión é ben evidente nos dous escenarios:",
               "",
               "* Durante unha operación de pull, os commits descarganse ó `o/master` e logo *mesturanse* á rama `master`. O obxectivo implícito do merge determinase con esta conexión.",
               "* Durante un push, o traballo da rama `master` súbese á rama `master` do remoto (que estaba representada localmente por `o/master`). O *destino* do push determinouse con esta conexión entre `master` e `o/master`.",
@@ -527,13 +527,13 @@ exports.level = {
             "markdowns": [
               "## Trackeando remotos",
               "",
-              "Facéndoa curta, esta conexión entre `master` e `o/master` ensínase pola propiedade de \"trackear (seguir) remotos\" das ramas. A rama `master`está configurada para trackear `o/master` -- o que quere dicir, que hai un obxectivo implícito para o merge e un destino implícito para a rama  `master`.",
+              "Facéndoa curta, esta conexión entre `master` e `o/master` ensínase pola propiedade de \"trackear (seguir) remotos\" das ramas. A rama `master` está configurada para trackear `o/master` -- o que quere dicir, que hai un obxectivo implícito para o merge e un destino implícito para a rama  `master`.",
               "",
               "Poderías estar pensando cómo esa propiedade apareceu na túa rama `master` se ti non executaches ningún comando para especificalo. Bueno, cando clonas un repositorio co git, esta propiedade asignase por ti automáticamente.",
               "",
               "Durante un clone, git crea unha rama remota por cada rama no remoto (por exemplo, ramas como `o/master`). Pero despois crea unha rama local que trakea a rama activa do remoto, que habitúa ser `master`.",
               "",
-              "Una vez completado o git clone, só tés unha única rama local (para que non te asustes) pero podes ver todalas ramas que do remoto (se fora tan curioso). ¡É o mellor de ambolos dous mundos!",
+              "Una vez completado o git clone, só tés unha única rama local (para que non te asustes) pero podes ver todalas ramas que do remoto (se fora tan curioso). ¡É o mellor de ámbolos dous mundos!",
               "",
               "Esto tamén explica por qué poderías ver unha mensaxe como este durante a clonación:",
               "",
@@ -547,7 +547,7 @@ exports.level = {
           "type": "ModalAlert",
           "options": {
             "markdowns": [
-              "### ¿Puedo especificalo eu?",
+              "### ¿Podo especificalo eu?",
               "",
               "¡Claro que sí! Podes facer que calquera rama que quixeras seguir `o/master`, e se o fixeras, esa rama vai ter o mesmo destino implícito de push e  obxectivo implícito de merge que `master`. Eso significa que podes executar `git push` nunha rama chamada `nonMaster` e ¡que o teu traballo se empurre á rama `master` do remoto!",
               "",
@@ -563,7 +563,7 @@ exports.level = {
           "type": "GitDemonstrationView",
           "options": {
             "beforeMarkdowns": [
-              "Suficiente charla, ¡vexamos unha demo! Ímos facer checkout a unha nova rama chamada `foo` e facer que siga a `master` no remoto." 
+              "Suficiente charla, ¡vexamos unha demo! Imos facer checkout a unha nova rama chamada `foo` e facer que siga a `master` no remoto." 
             ],
             "afterMarkdowns": [
               "Como podes ver, empregamos o obxectivo implícito de merge `o/master` para actualizar a rama `foo`. ¡Nota como `master` non foi actualizada!"

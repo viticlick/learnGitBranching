@@ -206,15 +206,15 @@ exports.level = {
               "Superamos este problema facendo o seguinte:",
               "",
               "* Reordenaremos os commits seleccionando aqueles que desexamos que estén no cambio, con `git rebase -i`",
-              "* Usaremos o comando `git commit --amend` para facer unha pequena modificación",
-              "* Imos, entón, reordenar os commits na mesma orde que estaban anteriormente con `git rebase -i`",
+              "* Empregaremos o comando `git commit --amend` para facer unha pequena modificación",
+              "* Imos, entón, reordear os commits na mesma orde na que estaban anteriormente con `git rebase -i`",
               "* Finalmente, moveremos o master para esa parte atualizada da árbore e así finalizar o nivel (usando o método que máis che pete)",
               "",
               "Hai moitas formas de obter o obxectivo final (eu vexo o cherry-pick pasando pola túa cachola), e verémolo máis adiante, pero agora ímonos centrar nesta técnica.",
               "",
-              "Por último, preste atención no estado do \"objectivo\" aquí -- como movemos os commits dúas veces, ambos teñen o apóstrofo sumado. O apóstrofo é añadido polo commit que nos correximos (ammend), o cal danos a forma final da árbore.",
+              "Por último, preste atención no estado do \"objectivo\" aquí -- como movemos os commits dúas veces, ambos teñen o apóstrofo sumado. O apóstrofo engádese polo commit que nos correximos (amend), o cal danos a forma final da árbore.",
               "",
-              "Contado todo esto, a resposta valídase baseandose na estructura e nos diferentes apóstrofes. Cando a rama `master` teña a mesma estructura, e o número de apóstrofos sexa igual, obterás todos os puntos da tarefa."
+              "Contado todo esto, a resposta valídase baseándose na estructura e nos diferentes apóstrofes. Cando a rama `master` teña a mesma estructura, e o número de apóstrofos sexa igual, obterás todos os puntos da tarefa."
             ]
           }
         },

@@ -125,7 +125,7 @@ exports.level = {
               "",
               "¡Íscalle lura! Temos un _pequeno_ obxectivo que acadar neste nivel.",
               "",
-              "Temos aquí un `master` que está alguns commits por detrás das ramas `one`, `two` e `three`. Por algunha razón, precisamos atualizar esas tres ramas con versións modificadas dos últimos commits de master.",
+              "Temos aquí un `master` que está algúns commits por detrás das ramas `one`, `two` e `three`. Por algunha razón, precisamos atualizar esas tres ramas con versións modificadas dos últimos commits de master.",
               "",
               "A rama `one` precisa de unha reordenación, e votar fora a `C5`. O `two` precisa apenas de reordenacións. O `three` precisa dun único commit!",
               "",

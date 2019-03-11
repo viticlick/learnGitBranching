@@ -251,7 +251,7 @@ exports.level = {
             "markdowns": [
               "### Rarezas do `<orixe>`",
               "",
-              "Git abusa do parámetro `<orixe>` de dúas maneras extrañas. Estos dous abusos veñen do feito de que técnicamente podes especificar \"á nada\" como un `orixe` válido tanto para git push como para git fetch. O modo de especificar a nada é a través dun parámetro vacío:",
+              "Git abusa do parámetro `<orixe>` de dúas maneiras extranas. Estos dous abusos veñen do feito de que técnicamente podes especificar \"á nada\" como un `orixe` válido tanto para git push como para git fetch. O modo de especificar a nada é a través dun parámetro vacío:",
               "",
               "* `git push origin :side`",
               "* `git fetch origin :bugFix`",
@@ -264,7 +264,7 @@ exports.level = {
           "type": "GitDemonstrationView",
           "options": {
             "beforeMarkdowns": [
-              "¿Qué fai a empurra a \"nada\" a unha rama remota? ¡Eliminaa!"
+              "¿Qué fai cando se empurra a \"nada\" a unha rama remota? ¡Eliminaa!"
             ],
             "afterMarkdowns": [
               "Ahí está, borramos a rama `foo` exitosamente do remoto empurrando o concepto da \"nada\". Ten algo de sentido..."

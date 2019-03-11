@@ -235,7 +235,7 @@ exports.level = {
               "",
               "Pros:",
               "",
-              "* Rebasar fai que a túa árbore de commits sexa bastante limpa, xa qeu tódolos commits seguen unha única línea.",
+              "* Rebasar fai que a túa árbore de commits sexa bastante limpa, xa que tódolos commits seguen unha única línea.",
               "",
               "Contras:",
               "",

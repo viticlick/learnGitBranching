@@ -255,9 +255,9 @@ exports.level = {
             "markdowns": [
               "## Simulando o traballo no repositorio",
               "",
-              "Entonces, hai algo con trampa aquí -- para algunhas das leccións  seguintes, precisamos explicarche cómo baixar os cambios introducidos no repositorio remoto.",
+              "Entón, hai algo con trampa aquí -- para algunhas das leccións  seguintes, precisamos explicarche cómo baixar os cambios introducidos no repositorio remoto.",
               "",
-              "Eso significa que escencialmente temos que \"finxir\" que o repositorio remoto foi actualizado por algún compañeiro, amigo ou  incluso nalguna rama específica a cantidade de commits feitos.",
+              "Eso significa que escencialmente temos que \"finxir\" que o repositorio remoto foi actualizado por algún compañeiro, amigo ou  incluso nalgunha rama específica a cantidade de commits feitos.",
               "",
               "Para acadar esto, introduxemos o ben chamado comando `git fakeTeamwork`! É bastante auto-explicativo: semella traballo dos nosos colegas. Vexamos una demo..."
             ]
@@ -267,7 +267,7 @@ exports.level = {
           "type": "GitDemonstrationView",
           "options": {
             "beforeMarkdowns": [
-              "O comportament por defecto de `fakeTeamwork` é simplemente crear un commit en master na rama remota"
+              "O comportamento por defecto de `fakeTeamwork` é simplemente crear un commit en master na rama remota"
             ],
             "afterMarkdowns": [
               "Ahí o tes: a rama remota actualizouse cun novo commit, e aínda non nos baixamos ese commit porque inda non fixemos `git fetch`."
@@ -283,7 +283,7 @@ exports.level = {
               "Tamén podes especificar a cantidad de commits ou a rama agregándoos ó comando"
             ],
             "afterMarkdowns": [
-              "Cun único comando simulamos que un colega do equipo empurrou tres commits á rama `foo`do noso remoto"
+              "Cun único comando simulamos que un colega do equipo empurrou tres commits á rama `foo` do noso remoto"
             ],
             "command": "git fakeTeamwork foo 3",
             "beforeCommand": "git branch foo; git clone"
